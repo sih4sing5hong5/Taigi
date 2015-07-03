@@ -1,9 +1,10 @@
+_public/
 
+npm-debug.log
 
-/config.rb
+bower_components/
+node_modules/
 
-/GRuntfile.js
-/package.json
-/node_modules/*
-/.sass-cache/*
-/main.html
+music/
+
+*.pyc
