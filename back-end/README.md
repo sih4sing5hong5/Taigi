@@ -42,9 +42,13 @@
   -主要是利用底下的urls.py來提供對應的查詢
 
 * 執行步驟
-  1. 確認已經安裝Django套件
-  2. 如果沒安裝請先安裝Django套件，執行pip install Django -U
-  3. 進入Backend的資料夾中啟動後端server，執行python manage.py runserver
+  1. 開啟虛擬環境
+```
+virtualenv --python=python3 venv
+. venv/bin/activate
+```
+  2. 安裝請先安裝Django套件，執行`pip install Django -U`
+  3. 進入Backend的資料夾中啟動後端server，執行`python manage.py runserver`
   4. 到 http://127.0.0.1:8000/hello/ 確認是否成功啟動
   
 
